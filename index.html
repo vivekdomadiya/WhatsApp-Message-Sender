@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="author" content="VivekDomadia">
+    <meta name="description" content="send WhatsApp message without saving mobile no">
+
+    <link rel="shortcut icon" href="img/whatsapp.png" type="image/x-icon">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/whatsapp.png"> WhatsApp Message
+                Sender</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-sm-6 mx-auto">
+
+
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend" style="width:75px;">
+                                    <input type="tel" class="form-control numberOnly" name="code" id="code"
+                                        placeholder="+91" maxlength="4" minlength="2" value="+91" required />
+                                </div>
+                                <input type="tel" class="form-control numberOnly" name="phone" id="phone"
+                                    pattern="[0-9]*" placeholder="9524xxxx52" maxlength="10" minlength="10" autofocus
+                                    required />
+                            </div>
+                            <div style="color: red;" id="code-error"></div>
+                            <div style="color: red;" id="phone-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="text" class="form-control" id="text" rows="5"
+                                placeholder="Message (optional)"></textarea>
+                        </div>
+                        <div class="form-group text-center">
+                            <a href="#" class="btn btn-success" id="send" target="_blank">Send</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="text-center mt-4">
+                    <h3>About</h3>
+                    <p>
+                        Here you can send WhatsApp message without saving mobile no. You
+                        have to enter mobile no and country code of who you went to send
+                        message. it will redirect to your whatsApp application.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- custome script -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
