@@ -2,25 +2,25 @@
   "short_name": "WPSender",
   "name": "WhatsApp Message Sender",
   "icons": [
-  {
-    "src":"img/whatsapp_512x512.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  },
-  {
-    "src":"img/whatsapp_192x192.png",
-    "sizes": "192x192",
-    "type": "image/png",
-    "purpose": "maskable"
-  },
-  {
-    "src":"img/whatsapp.png",
-    "sizes": "48x48",
-    "type": "image/png"
-  }
- ],
- "start_url": "/WhatsApp-Message-Sender",
- "background_color": "#ffffff",
- "theme_color": "#ffffff",
- "display": "standalone"
+    {
+      "src": "img/whatsapp_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "img/whatsapp_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/whatsapp.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/WhatsApp-Message-Sender",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone"
 }
